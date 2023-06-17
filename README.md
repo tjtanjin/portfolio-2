@@ -16,7 +16,7 @@ Personal portfolio 2 contains the code for my second and current portfolio websi
 
 ### Changes
 
-Note that the original works are great in their own regards and that the following changes were made due to my personal preferences.
+Before diving into the wall of text detailing the changes, you may first wish to visualize the differences at my website [here](https://tjtanjin.com). Note that the original works are great in their own regards and that the following changes were made due to my personal preferences.
 
 #### Landing Page
 For the landing page, one very noticeable difference is that the Computer Canvas has been removed in favour of an [interactive stars](https://codepen.io/Thibka/pen/BRzgOM) background.
