@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="1000px" src="" />
+  <img width="1000px" src="https://raw.githubusercontent.com/tjtanjin/portfolio-2/master/public/screenshot.jpg" />
   <h1 align="center">Personal Portfolio 2</h1>
 </p>
 
@@ -31,13 +31,17 @@ I've also expanded the section slightly to briefly touch upon my education as we
 #### Experience Page
 For the experience page, I made the company logos larger and removed the alternating background colours. I also updated the term **Work Experience** to **Job Experiences** and changed the term **Work** to **Experiences** on the navigation bar.
 
+In addition, I also added a `company_link` field so users can click on the company logo to visit the company website.
+
 #### Project Page
 On the [original repository](https://github.com/ladunjexa/Threejs-3D-Portfolio), the showcasing of projects was subsumed under the **Work** section. However, I broke it up into its own **Projects** section as I wished to share a little bit more and wanted the website to remain easily navigable.
+
+I have also expanded the project section to include an `app_link` such that users will be redirected to the application when they click on the project card.
 
 #### Articles Page
 I removed the **Testimonials** section (also under **Work**) from the [original repository](https://github.com/ladunjexa/Threejs-3D-Portfolio) and opted to have an **Articles** section instead as I wanted to share my github gists.
 
-Said articles can be viewed directly on the website as it opens up a modal with the embedded github gists that I wrote. Note that it still opens up to the github gists website directly when viewed on mobile.
+Said articles can be clicked on and viewed directly on the website as it opens up a modal with the embedded github gists that I wrote. Note that it still opens up to the github gists website directly when viewed on mobile.
 
 #### Contact Page
 For the contact page, I squeezed in space for my email, linkedin and github so users can easily contact me on various platforms. 
@@ -47,12 +51,24 @@ In addition, I also added validation to the contact page to ensure that all fiel
 #### Chatbot
 To make things a little more interactive, I added a lightweight chatbot at the bottom right of the website. Said chatbot was obtained from [TIDIO](https://www.tidio.com/) and setup was surprisingly easy. I will not be covering the setup here but if you are interested, feel free to find out more from their website.
 
+#### PC/Mobile Variations
+While the PC is able to load the website with little lag, I have noticed that mobile devices (especially older ones) tend to struggle with **Three.js**. After some considerations, I made the following changes:
+
+- Ball Canvas is replaced with PNG images on mobile devices
+- Star Canvas is entirely removed on mobile devices
+- Earth Canvas is replaced with a GIF on mobile devices
+
+These "nerfs" on mobile devices do not significantly affect the looks of the website, but they do give a huge boost to performance on mobile devices so I think it's worth the tradeoff.
+
 #### Others
+Apart from small styling changes, the tech section also now comes with a tooltip. This makes it easier for people to identify the technologies used in case they are unfamiliar with any of the logos.
+
+There are probably more minute changes I have made but not all come to mind/are not significant enough to bring up. Overall, I really like the template from the [original repository](https://github.com/ladunjexa/Threejs-3D-Portfolio) (many thanks to the original authors) and tried my best to adapt it to my preferences.
 
 ### Setup
 For the initial setup, please refer to the original project's [README](https://github.com/ladunjexa/Threejs-3D-Portfolio#readme).
 
-Should you wish to use the chatbot feature that I have added, then you will be required to create an account with [TIDIO](https://tidio.com/). I will not be covering the details of setting up the TIDIO chatbot as this is sufficiently covered by the resources on their website. However, note that once you have setup your bot, you will need to embed your own `<script>` for the bot within **App.jsx**.
+Should you wish to use the chatbot feature that I have added, then you will be required to create an account with [TIDIO](https://tidio.com/). I will not be covering the details of setting up the TIDIO chatbot as this is sufficiently covered by the resources on their website. However, note that once you have setup your bot, you will need to embed your own `<script>` for the bot within **App.jsx**. Other than that, the setup should be entirely the same.
 
 ### Team
 * [Original Contributors](https://github.com/ladunjexa/Threejs-3D-Portfolio#wave-contributing)
