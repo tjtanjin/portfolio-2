@@ -35,6 +35,7 @@ import toffs from "./company/toffs.png";
 import imposter from "./imposter.gif";
 import billboard from "./billboard.gif";
 import smc from "./smc.gif";
+import rcb from "./rcb.gif";
 import quicktax from "./quicktax.gif";
 
 import email from "./email.png";
@@ -82,6 +83,7 @@ export {
   imposter,
   billboard,
   smc,
+  rcb,
   quicktax,
   email,
   linkedin,

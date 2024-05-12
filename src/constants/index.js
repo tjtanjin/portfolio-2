@@ -27,6 +27,7 @@ import {
   imposter,
   billboard,
   smc,
+  rcb,
   quicktax
 } from "../assets";
 
@@ -280,6 +281,28 @@ const gists = [
 
 const projects = [
   {
+    name: "React ChatBotify",
+    app_link: "https://react-chatbotify.tjtanjin.com",
+    description:
+      "A React library for creating a flexible and extensible chatbot - supports features such as audio, voice, notifications, uploads, LLMs integrations and many more!",
+    tags: [
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "react",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: rcb,
+    source_code_link: "https://github.com/tjtanjin/react-chatbotify",
+  },
+  {
     name: "SpaceShips",
     app_link: "https://spaceships.tjtanjin.com",
     description:
@@ -298,14 +321,14 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "https://camo.githubusercontent.com/13b221a47d9ac6d083d5d1473cb89aff7f2a0ab2e6e459ff935426efdb129575/68747470733a2f2f692e696d6775722e636f6d2f4d70795a6b344e2e676966",
+    image: "https://camo.githubusercontent.com/36c02fd79be25fe170169f7acc95265fbf0d4c7717949a7906c7b90e9a890e26/68747470733a2f2f692e696d6775722e636f6d2f4d70795a6b344e2e676966",
     source_code_link: "https://github.com/tjtanjin/spaceships_web",
   },
   {
     name: "Imposter",
     app_link: "https://imposter.tjtanjin.com/",
     description:
-      "imPoster is a lite version of postman and is implemented in a simple and minimalistic style that is easy for anyone to pick up. Latest releases are found on our main website!",
+      "imPoster is a lite version of Postman and is implemented in a simple and minimalistic style that is easy for anyone to pick up. Latest releases are found on our main website!",
     tags: [
       {
         name: "java",
@@ -368,28 +391,6 @@ const projects = [
     source_code_link: "https://github.com/tjtanjin/project_billboard_model/",
   },
   {
-    name: "SurvivalTop",
-    app_link: "https://www.spigotmc.org/resources/survivaltop.96737/",
-    description:
-      "SurvivalTop is the most comprehensive, efficient yet flexible wealth calculation plugin for minecraft servers. Curated for survival players who love some competition!",
-    tags: [
-      {
-        name: "java",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "minecraft",
-        color: "green-text-gradient",
-      },
-      {
-        name: "plugins",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: "https://camo.githubusercontent.com/687433d03445cf81ad3340eb4707d256ac3d98e87a5fbcec193dd16b6c3c5292/68747470733a2f2f692e696d6775722e636f6d2f69446967516f6f2e676966",
-    source_code_link: "https://github.com/TavernCraft-Devs/SurvivalTop",
-  },
-  {
     name: "QuickTax",
     app_link: "https://www.spigotmc.org/resources/quicktax.96495/",
     description:
@@ -409,7 +410,7 @@ const projects = [
       },
     ],
     image: quicktax,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/tjtanjin/QuickTax",
   },
 ];
 
