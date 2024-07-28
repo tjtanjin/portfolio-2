@@ -1,6 +1,7 @@
 
 import { useEffect, useState } from "react";
 import { BrowserRouter } from "react-router-dom";
+import MyChatBot from "./components/MyChatBot";
 
 import {
   About,
@@ -13,7 +14,6 @@ import {
   Projects,
   StarsCanvas,
 } from "./components";
-import { Helmet } from "react-helmet";
 
 const App = () => {
   const [showingLoader, setShowingLoader] = useState(true);
@@ -41,12 +41,7 @@ const App = () => {
       <div className="relative z-0 bg-primary">
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
           {!showingLoader &&
-            <>
             <Navbar />
-            <Helmet>
-              <script type="text/javascript" src="//code.tidio.co/ibvtbro81wcwohhixvaatrl9fn2voylx.js" async></script>
-            </Helmet>
-            </>
           }
           <Hero />
         </div>
@@ -62,6 +57,7 @@ const App = () => {
           }
         </div>
       </div>
+      <MyChatBot/>
     </BrowserRouter>
   );
 };

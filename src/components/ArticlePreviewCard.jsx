@@ -1,17 +1,16 @@
 import { motion } from "framer-motion";
-import NiceModal from '@ebay/nice-modal-react';
 import { Tooltip } from "react-tooltip";
 
 import { fadeIn } from "../utils/motion";
 
 const ArticlePreviewCard = ({
-    index,
     id,
+    index,
+    url,
     title,
     image,
     author,
     tags,
-    setShowModal,
   }) => {
 
   return (
@@ -19,12 +18,7 @@ const ArticlePreviewCard = ({
     <motion.div
       data-event="click" data-tip data-tooltip-id={id} 
       onClick={() => {
-        if (window.innerWidth > 768) {
-          setShowModal(true);
-          NiceModal.show('my-antd-modal', { id: id, setShowModal: setShowModal })
-        } else {
-          window.open("https://gist.github.com/" + id, "_blank");
-        }
+        window.open(url, "_blank");
       }}
       variants={fadeIn("", "spring", index * 0.5, 0.75)}
       className="bg-black-200 p-10 rounded-3xl xs:w-[320px] w-full cursor-pointer"

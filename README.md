@@ -39,9 +39,9 @@ On the [original repository](https://github.com/ladunjexa/Threejs-3D-Portfolio),
 I have also expanded the project section to include an `app_link` such that users will be redirected to the application when they click on the project card.
 
 #### Articles Page
-I removed the **Testimonials** section (also under **Work**) from the [original repository](https://github.com/ladunjexa/Threejs-3D-Portfolio) and opted to have an **Articles** section instead as I wanted to share my github gists.
+I removed the **Testimonials** section (also under **Work**) from the [original repository](https://github.com/ladunjexa/Threejs-3D-Portfolio) and opted to have an **Articles** section instead as I wanted to share my articles (previously, I shared my GitHub gists).
 
-Said articles can be clicked on and viewed directly on the website as it opens up a modal with the embedded github gists that I wrote. Note that it still opens up to the github gists website directly when viewed on mobile.
+Said articles can be clicked on and will bring the user directly to the platform that they are published on.
 
 #### Contact Page
 For the contact page, I squeezed in space for my email, linkedin and github so users can easily contact me on various platforms. 

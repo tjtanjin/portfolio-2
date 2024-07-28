@@ -6,7 +6,6 @@ import Tech from "./Tech";
 import Experience from "./Experience";
 import Projects from "./Projects";
 import ArticlePreview from "./ArticlePreview";
-import ArticleModal from './ArticleModal';
 import Contact from "./Contact";
 import CanvasLoader from "./Loader";
 
@@ -19,7 +18,6 @@ export {
   Experience,
   Projects,
   ArticlePreview,
-  ArticleModal,
   Contact,
   CanvasLoader,
   EarthCanvas, 

@@ -1,14 +1,12 @@
 import { useState, useEffect } from "react";
 
 import { motion } from "framer-motion";
-import { ModalDef } from "@ebay/nice-modal-react";
 
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
-import ArticleModal from "./ArticleModal";
 import ArticlePreviewCard from "./ArticlePreviewCard";
 import { textVariant } from "../utils/motion";
-import { gists } from "../constants";
+import { articles } from "../constants";
 import { fadeIn } from "../utils/motion";
 
 const ArticlePreview = () => {
@@ -27,7 +25,7 @@ const ArticlePreview = () => {
     <div className="bg-black-100 rounded-[20px]">
       <div className={`${styles.padding} bg-tertiary rounded-2xl min-h-[420px]`}>
         <motion.div variants={textVariant()}>
-          <p className={styles.sectionSubText}>Small sharings</p>
+          <p className={styles.sectionSubText}>My Sharings</p>
           <h2 className={styles.sectionHeadText}>Articles.</h2>
         </motion.div>
 
@@ -36,20 +34,21 @@ const ArticlePreview = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          Here, you will find a couple of articles that I have written. I thought documenting 
-          some of my work struggles and approaches could help others and myself in the future 😊 Read more writeups
-          <a className="text-white font-bold" target="_blank" href="https://gist.github.com/tjtanjin"> here</a>!
+          Occasionally, I write articles to document and share some of my project struggles and approaches that may help
+          others (and myself) in the future 😊 If you're interested, check out my content on 
+          <a className="text-white font-bold" target="_blank" href="https://tjtanjin.medium.com/"> Medium</a>,
+          <a className="text-white font-bold" target="_blank" href="https://dev.to/tjtanjin"> DEV Community</a> and
+          <a className="text-white font-bold" target="_blank" href="https://www.freecodecamp.org/news/author/tjtanjin/"> freeCodeCamp</a>.
         </motion.p>
       </div>
       </div>
       
       <div className={`${styles.paddingX} -mt-20 pb-14 flex flex-wrap gap-7`}>
-        {gists.slice(0, 3).map((gist, index) => (
-          <ArticlePreviewCard setShowModal={setShowModal} {...gist} key={index} index={index}/>
+        {articles.slice(0, 3).map((article, index) => (
+          <ArticlePreviewCard setShowModal={setShowModal} {...article} key={index} index={index}/>
         ))}
       </div>
     </div>
-    <ModalDef id="my-antd-modal" component={ArticleModal} />
     </>
   );
 };

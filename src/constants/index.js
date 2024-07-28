@@ -248,27 +248,30 @@ const experiences = [
   },
 ];
 
-const gists = [
+const articles = [
   {
-    title: "How to create a minecraft server on Ubuntu (18.04/20.04)",
-    id: "tjtanjin/d3f9c5e33e830a4b71f9c84e7c807f0a",
+    id: 1,
+    title: "How to Build a Telegram Bot: A Beginner’s Step-by-Step Guide",
+    url: "https://medium.com/@tjtanjin/how-to-build-a-telegram-bot-a-beginners-step-by-step-guide-c671ce027c55",
     image: "https://avatars.githubusercontent.com/u/43908963?s=400&u=9b2e762a6bd2720d2ebb44bf67df2103af6b6d9f&v=4",
     author: "tjtanjin",
-    tags: "#minecraft"
+    tags: "#telegram-bot, #medium"
   },
   {
-    title: "How to host a telegram bot on Ubuntu (18.04/20.04)",
-    id: "tjtanjin/29875407defe183c5147bb854f9e69ae",
+    id: 2,
+    title: "Ensuring Uptime: A Pythonic Approach to Liveness Monitoring",
+    url: "https://dev.to/tjtanjin/ensuring-uptime-a-pythonic-approach-to-liveness-monitoring-lp8",
     image: "https://avatars.githubusercontent.com/u/43908963?s=400&u=9b2e762a6bd2720d2ebb44bf67df2103af6b6d9f&v=4",
     author: "tjtanjin",
-    tags: "#telegram-bot"
+    tags: "#python, #devcommunity"
   },
   {
-    title: "How to generate SSL certificate with certbot for apache2 on Ubuntu (18.04/20.04)",
-    id: "tjtanjin/606cb75f921dba9c3efdfa1a00c108d1",
+    id: 3,
+    title: "How to Create a React Chatbot – a Step by Step Guide",
+    url: "https://www.freecodecamp.org/news/how-to-create-a-react-chatbot/",
     image: "https://avatars.githubusercontent.com/u/43908963?s=400&u=9b2e762a6bd2720d2ebb44bf67df2103af6b6d9f&v=4",
     author: "tjtanjin",
-    tags: "#server-hosting"
+    tags: "#react, #freecodecamp"
   },
   {
     title: "How to install XAMPP and host a simple web game on Ubuntu (18.04/20.04)",
@@ -414,4 +417,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, gists, projects };
+export { services, technologies, experiences, articles, projects };
