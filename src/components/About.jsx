@@ -1,5 +1,5 @@
 import React from "react";
-import Tilt from "react-tilt";
+import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
@@ -52,12 +52,11 @@ const About = () => {
           <img className="object-cover lg:max-h-[350px] lg:max-w-[350px] max-h-[200px] max-w-[200px] lg:pl-28 md:pl-10 sm:text-center mt-10 mb-10 md:mt-0 md:mb-0 rounded-lg m-auto md:rounded-full" src={tjabout}/>
         </div>
         <div className="text-[17px] leading-[30px] max-w-3xl text-secondary md:order-1">
-          Greetings 👋! I'm a passionate full stack developer who enjoys creating nice-looking
-          and intuitive applications to elevate user experiences. With a strong passion for learning, I
-          eagerly embrace new technologies and innovations. I consistently strive for excellence,
-          putting my best into every project I undertake. Leveraging on my frontend
-          and backend expertise, I always aim to deliver high-quality solutions.
-          In my spare time, I am also a pretty good gamer 😝
+          Hey there 👋! I'm Tan Jin, a full-stack developer and open-source enthusiast based in sunny Singapore! 🚀
+          I maintain <a className="text-white font-bold underline" target="_blank" href="https://react-chatbotify.com"> React ChatBotify</a>, a chatbot library enjoyed by developers worldwide.
+          When I'm not crafting smooth UI flows or wiring up APIs, I'm exploring AI agents, GitOps, and sometimes pondering about life.
+          I love simplifying tech through engaging tutorials on <a className="text-white font-bold underline" target="_blank" href="https://tjtanjin.medium.com/"> Medium</a> and <a className="text-white font-bold underline" target="_blank" href="https://vibe-engineers.dev"> quirky side projects</a> 😊
+          If you're looking for someone who blends tech expertise, creativity, and fun, <a className="text-white font-bold underline" target="_blank" href="https://www.linkedin.com/in/cjtanjin/"> let's connect!</a> 💡✨
           <br/><br/><br/>
           Graduated with a B.Comp (Computer Science) with Honours (Distinction) from 
           <a className="text-white font-bold" target="_blank" href="https://nus.edu.sg/"> National University of Singapore</a> |

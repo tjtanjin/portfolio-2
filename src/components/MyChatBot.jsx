@@ -44,7 +44,7 @@ const MyChatBot = () => {
         hobby: {
             message: "I spend a vast majority of my free time coding random things! <a href='https://spaceships.tjtanjin.com/' target='_blank'><u>Classic spaceships game</u></a>, " +
                 "<a href='https://www.spigotmc.org/resources/authors/tjtanjin.724342/' target='_blank'><u>minecraft plugins</u></a>, and even this very " +
-                "<a href='https://react-chatbotify.tjtanjin.com' target='_blank'><u>chatbot</u></a> you are interacting with! 😊<br/><br/>" +
+                "<a href='https://react-chatbotify.com' target='_blank'><u>chatbot</u></a> you are interacting with! 😊<br/><br/>" +
                 "When I am invested into a project, I really put in my efforts to make it the best that it can be!<br/><br/>" +
                 "Of course, there are times I ain't coding. You may or may not be interested to know that I am also pretty good at league of legends and minecraft 😝",
             chatDisabled: true,

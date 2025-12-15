@@ -25,7 +25,7 @@ import {
   teammates,
   toffs,
   imposter,
-  billboard,
+  vibeengineers,
   smc,
   rcb,
   quicktax
@@ -285,7 +285,7 @@ const articles = [
 const projects = [
   {
     name: "React ChatBotify",
-    app_link: "https://react-chatbotify.tjtanjin.com",
+    app_link: "https://react-chatbotify.com",
     description:
       "A React library for creating a flexible and extensible chatbot - supports features such as audio, voice, notifications, uploads, LLMs integrations and many more!",
     tags: [
@@ -306,6 +306,28 @@ const projects = [
     source_code_link: "https://github.com/tjtanjin/react-chatbotify",
   },
   {
+    name: "Vibe Engineers",
+    app_link: "https://vibe-engineers.dev",
+    description:
+      "Why settle for boring, predictable code when you can have code with personality, context, and a little bit of magic? It's time to bring vibes into your code!",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "artificial-intelligence",
+        color: "green-text-gradient",
+      },
+      {
+        name: "pypi",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: vibeengineers,
+    source_code_link: "https://github.com/vibe-engineers",
+  },
+  {
     name: "SpaceShips",
     app_link: "https://spaceships.tjtanjin.com",
     description:
@@ -324,7 +346,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "https://camo.githubusercontent.com/36c02fd79be25fe170169f7acc95265fbf0d4c7717949a7906c7b90e9a890e26/68747470733a2f2f692e696d6775722e636f6d2f4d70795a6b344e2e676966",
+    image: "https://camo.githubusercontent.com/b0dcb75685696e620b7af5209f645eb36d02ebf42da684ece22b949eb1eec479/68747470733a2f2f692e696d6775722e636f6d2f4d70795a6b344e2e676966",
     source_code_link: "https://github.com/tjtanjin/spaceships_web",
   },
   {
@@ -370,28 +392,6 @@ const projects = [
     ],
     image: smc,
     source_code_link: "https://github.com/tjtanjin/simple-media-converter",
-  },
-  {
-    name: "Project Billboard",
-    app_link: "https://project-billboard.herokuapp.com/",
-    description:
-      "\"Music is an undeniable part of our lives\" - The best ones end up in the Billboard top 200 chart. But is there a method to this madness that is being a chart-topper?",
-    tags: [
-      {
-        name: "python",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "machine-learning",
-        color: "green-text-gradient",
-      },
-      {
-        name: "sklearn",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: billboard,
-    source_code_link: "https://github.com/tjtanjin/project_billboard_model/",
   },
   {
     name: "QuickTax",

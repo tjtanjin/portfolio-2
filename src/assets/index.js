@@ -1,9 +1,9 @@
-import logo from "./logo.png";
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
-import github from "./github.png";
+import logo from "./logo.webp";
+import backend from "./backend.webp";
+import creator from "./creator.webp";
+import mobile from "./mobile.webp";
+import web from "./web.webp";
+import github from "./github.webp";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -32,21 +32,21 @@ import saturdaykids from "./company/saturdaykids.png";
 import teammates from "./company/teammates.png";
 import toffs from "./company/toffs.png";
 
-import imposter from "./imposter.gif";
-import billboard from "./billboard.gif";
-import smc from "./smc.gif";
-import rcb from "./rcb.gif";
-import quicktax from "./quicktax.gif";
+import imposter from "./imposter.webp";
+import vibeengineers from "./vibeengineers.webp";
+import smc from "./smc.webp";
+import rcb from "./rcb.webp";
+import quicktax from "./quicktax.webp";
 
-import email from "./email.png";
-import linkedin from "./linkedin.png";
-import github_2 from "./github_2.png";
+import email from "./email.webp";
+import linkedin from "./linkedin.webp";
+import github_2 from "./github_2.webp";
 
-import rocket from "./rocket.gif";
+import rocket from "./rocket.webp";
 
-import earth from "./earth.gif";
+import earth from "./earth.webp";
 
-import tjabout from "./tj-about.jpg";
+import tjabout from "./tj-about.webp";
 
 export {
   logo,
@@ -81,7 +81,7 @@ export {
   teammates,
   toffs,
   imposter,
-  billboard,
+  vibeengineers,
   smc,
   rcb,
   quicktax,
